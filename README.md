@@ -1,2 +1,3 @@
-# zakladki
-Just another web app to handle bookmarks
+# Zakladki
+
+Just another web app to handle bookmarks.
