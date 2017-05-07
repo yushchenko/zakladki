@@ -1,18 +1,23 @@
 {
-  "name": "zakladki",
-  "version": "0.0.1",
-  "description": "Just another web app to handle bookmarks.",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "name": "zakladki2",
+  "version": "0.1.0",
+  "private": true,
+  "author": "Valery Yushchenko",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/yushchenko/zakladki.git"
   },
-  "author": "Valery Yushchenko",
-  "bugs": {
-    "url": "https://github.com/yushchenko/zakladki/issues"
+  "dependencies": {
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4"
   },
-  "homepage": "https://github.com/yushchenko/zakladki#readme"
+  "devDependencies": {
+    "react-scripts": "0.9.5"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
 }
